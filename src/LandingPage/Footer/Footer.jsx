@@ -9,7 +9,7 @@ const Footer = () => {
               <div className="bg-primary p-1.5 rounded-lg text-white">
                 <span className="material-symbols-outlined text-2xl">volunteer_activism</span>
               </div>
-              <h2 className="text-xl font-black tracking-tight">KindHeart</h2>
+              <h2 className="text-xl font-black tracking-tight">God's Plan Charity</h2>
             </div>
 
             <p className="text-white dark:text-slate-400 max-w-sm">
@@ -54,15 +54,15 @@ const Footer = () => {
             <h4 className="font-bold text-lg text-white">Contact Us</h4>
             <ul className="space-y-4 text-slate-500 dark:text-slate-400">
               <li className="text-white flex items-start gap-3">
-                <span className="material-symbols-outlined text-blue-800">location_on</span>
+                <span className="material-symbols-outlined text-white">location_on</span>
                 Arusha, Tanzania
               </li>
               <li className="text-white flex items-center gap-3">
-                <span className="material-symbols-outlined text-blue-800">call</span>
+                <span className="material-symbols-outlined text-white">call</span>
                 +2557 469 65913
               </li>
               <li className="text-white flex items-center gap-3">
-                <span className="material-symbols-outlined text-blue-800">email</span>
+                <span className="material-symbols-outlined text-white">email</span>
                 godsplancharity@gmail.com
               </li>
             </ul>

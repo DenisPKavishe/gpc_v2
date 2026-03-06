@@ -54,9 +54,9 @@ const Events = () => {
             <h2 className="text-4xl font-black">Events</h2>
             <p className="text-slate-500 mt-2">Join us and be the change you want to see.</p>
           </div>
-          <button className="text-blue-800 font-bold flex items-center gap-2 hover:gap-3 transition-all">
-            View All Events <span className="material-symbols-outlined">arrow_forward</span>
-          </button>
+          {/* <button className="text-blue-800 font-bold flex items-center gap-2 hover:gap-3 transition-all">
+            View Events <span className="material-symbols-outlined">arrow_forward</span>
+          </button> */}
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

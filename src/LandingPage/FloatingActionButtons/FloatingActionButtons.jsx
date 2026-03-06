@@ -19,14 +19,14 @@ const FloatingActionsButtons = () => {
       </a>
       <a
         href="#"
-        className="w-12 h-12 bg-primary text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
+        className="w-12 h-12 bg-blue-800 text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         title="Support Team"
       >
         <span className="material-symbols-outlined text-2xl">headset_mic</span>
       </a>
       <button
         onClick={scrollToTop}
-        className="w-12 h-12 bg-primary text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
+        className="w-12 h-12 bg-blue-800 text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         title="Back to Top"
       >
         <span className="material-symbols-outlined text-2xl">arrow_upward</span>

@@ -29,7 +29,7 @@ const UpcomingEvent = () => {
   }, []);
 
   return (
-    <section className="py-12 max-w-7xl mx-auto px-4">
+    <section className="py-12 max-w-7xl mx-auto px-">
       <div className="relative rounded-[2.5rem] overflow-hidden min-h-[500px] flex items-center shadow-2xl shadow-blue-100">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent z-10"></div>
@@ -40,7 +40,7 @@ const UpcomingEvent = () => {
           />
         </div>
 
-        <div className="relative z-20 max-w-3xl px-8 py-3 md:px-16 space-y-8">
+        <div className="relative z-20 max-w-3xl px-5 py-3 md:px-16 space-y-8">
           <div className="inline-flex items-center gap-2 bg-blue-600 backdrop-blur-md border border-blue-700 px-4 py-2 rounded-full text-white text-xs font-black uppercase tracking-widest">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-800 opacity-75"></span>
@@ -75,7 +75,7 @@ const UpcomingEvent = () => {
             presence helps us reach more families in need by change their life and bring back the smile.
           </p>
 
-          <div className="flex gap-1 md:gap-1 mb-8">
+          <div className="flex gap-1 mb-8">
             {Object.entries(timeLeft).map(([unit, value]) => (
               <div
                 key={unit}
@@ -92,7 +92,7 @@ const UpcomingEvent = () => {
           </div>
 
           <div className="pt-4">
-            <button className="bg-blue-800 text-white text-lg font-bold px-10 py-4 rounded-xl hover:scale-105 transition-transform shadow-xl shadow-blue-200 flex items-center gap-3">
+            <button className="bg-blue-800 text-white text-lg font-bold px-10 py-4 rounded-xl hover:scale-105 transition-transform flex items-center gap-3">
               Include Me
               <span className="material-symbols-outlined">person_add</span>
             </button>

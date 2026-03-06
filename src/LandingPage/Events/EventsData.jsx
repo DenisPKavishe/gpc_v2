@@ -47,7 +47,7 @@ const Events = () => {
   ];
 
   return (
-    <section className="py-24 bg-slate-100 dark:bg-slate-900/50">
+    <section className="py-24 bg-slate-100">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-end mb-12">
           <div>

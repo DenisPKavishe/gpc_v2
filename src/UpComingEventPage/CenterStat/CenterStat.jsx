@@ -1,0 +1,34 @@
+// components/CenterStats.jsx
+import React from 'react';
+
+const CenterStats = () => {
+  return (
+    <div className="flex flex-wrap gap-4 mb-8">
+      <div className="flex min-w-[200px] flex-1 flex-col gap-3 rounded-xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50">
+        <div className="flex items-center gap-2 text-primary">
+          <span className="material-symbols-outlined">inventory_2</span>
+          <p className="text-slate-600 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">
+            Center Needs
+          </p>
+        </div>
+        <p className="text-slate-900 dark:text-slate-100 tracking-tight text-xl font-bold leading-tight">
+          School Supplies, Fresh Bedding, Hygiene Kits
+        </p>
+      </div>
+
+      <div className="flex min-w-[200px] flex-1 flex-col gap-3 rounded-xl p-6 border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50">
+        <div className="flex items-center gap-2 text-primary">
+          <span className="material-symbols-outlined">child_care</span>
+          <p className="text-slate-600 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">
+            Children Enrolled
+          </p>
+        </div>
+        <p className="text-slate-900 dark:text-slate-100 tracking-tight text-xl font-bold leading-tight">
+          45 Children (Ages 5-12)
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default CenterStats;

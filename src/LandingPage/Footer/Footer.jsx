@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,9 +34,9 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-blue-800 transition-colors">
-                    Events
-                </a>
+                <Link href="/gallery" className="text-white hover:text-blue-800 transition-colors">
+                    Gallery
+                </Link>
               </li>
               <li>
                 <a href="#" className="text-white hover:text-blue-800 transition-colors">
@@ -72,12 +73,12 @@ const Footer = () => {
         <div className="text-white border-t border-slate-200 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
           <p>© 2026 God's Plan Charity. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="text-white hover:text-blue-800">
+            <Link to="/privacy" className="text-white hover:text-blue-800">
               Privacy Policy
-            </a>
-            <a href="#" className="text-white hover:text-blue-800">
+            </Link>
+            <Link to="/terms" className="text-white hover:text-blue-800">
               Terms of Service
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ const NeedCard = ({ need }) => {
           </ul>
         </div>
 
-        <div className="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full mt-2">
+        <div className="w-full bg-slate-200 h-2 rounded-full mt-2">
           <div
             className="bg-blue-800 h-2 rounded-full"
             style={{ width: `${need.percentage}%` }}

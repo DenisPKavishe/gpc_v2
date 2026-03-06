@@ -3,7 +3,7 @@ import React from 'react';
 
 const EventCard = ({ event }) => {
   return (
-    <div className="bg-white dark:bg-background-dark rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 group cursor-pointer shadow-sm hover:shadow-xl transition-all">
+    <div className="bg-white rounded-2xl overflow-hidden border border-slate-200 group cursor-pointer shadow-sm hover:shadow-xl transition-all">
       <div className="h-48 overflow-hidden relative">
         <img
           alt={event.title}
@@ -29,7 +29,7 @@ const EventCard = ({ event }) => {
           {event.description}
         </p>
 
-        <div className="grid grid-cols-2 gap-2 pt-4 border-t border-slate-100 dark:border-slate-800 mt-4">
+        <div className="grid grid-cols-2 gap-2 pt-4 border-t border-slate-100 mt-4">
           <div className="flex flex-col">
             <span className="text-xs font-bold text-slate-900 dark:text-white">
               {event.attendees}

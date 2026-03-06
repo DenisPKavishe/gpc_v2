@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -21,9 +22,11 @@ const Hero = () => {
             mission to build a more equitable and supportive world for everyone.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
+            <Link to='/donate'>
             <button className="bg-blue-800 text-white text-lg font-bold px-8 py-4 rounded-xl hover:scale-105 transition-transform">
               Donate Now
             </button>
+            </Link>
             <button className="bg-white/10 backdrop-blur-md text-white border border-white/20 text-lg font-bold px-8 py-4 rounded-xl hover:bg-white/20 transition-colors">
               About Us
             </button>

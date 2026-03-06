@@ -1,7 +1,16 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 import HomePage from './LandingPage/HomePage';
-import Hero from './LandingPage/Hero/Hero';
+import UpcomingEvent from './UpComingEventPage/UpcomingEventPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import SupportTeam from './SupportTeam/SupportPage';
+import PrivacyPolicy from './PrivacyPolicy/PrivacyPage';
+import CommunityFamily from './Community/CommunityPage';
+import TermsConditions from './Terms&Condition/TermsPage';
+import NotFound from './NotFound/NotFoundPage';
+import Gallery from './Gallery/GalleryPage';
+import DonationPage from './Donate/DonatePage';
+import AboutPage from './AboutUs/AboutUs';
 
 function App() {
   useEffect(() => {
@@ -14,10 +23,20 @@ function App() {
   }, []);
 
   return (
-    <>
-      <HomePage />
-      
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path='/upcomingevent' element={<UpcomingEvent />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/donate" element={<DonationPage />} />
+        <Route path='/support' element={<SupportTeam />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/community" element={<CommunityFamily />} />
+        <Route path="/terms" element={<TermsConditions />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
   )
 }
 

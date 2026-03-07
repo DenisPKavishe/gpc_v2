@@ -17,7 +17,7 @@ import Testimonials from "./Testimonial/Testimonial";
 export default function HomePage(){
     return(
         <>
-            
+            <AlertBar />
             <Navbar />
             <Hero />
             <About />

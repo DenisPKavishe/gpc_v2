@@ -8,7 +8,8 @@ const HeroSection = () => {
       <img
         alt="Diverse group of volunteers helping community members in a sunlit outdoor setting"
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfKJKjHkcWXozwJB08_o933w11-hGkiFEV6xGL-T2nGfX-ImsHTOfrK1ni9VMmvwxvkWLsiKryy8ORhjnV5M2KwMKqym7EfsEOr8VN96MFLJjlPhkU0i1fGeT8ReExytPezJTE1YJgrcjRLPKOsvgCScmNUaE6Y5xQ9GWqLVvoPXPzRQww5YqchFyx02LM60FNf1dSvlQryl1nD8fdA2tMw8YXq1QU2A2e7LpKjzsKth22f4YnxpKYHaXLI0p3O8GhHvGws7OWokE"
+        src="./s2.svg
+        "
       />
       <div className="relative z-20 text-center px-4">
         <h1 className="text-white text-5xl md:text-7xl font-black mb-6 tracking-tight">Our Story</h1>
@@ -16,7 +17,7 @@ const HeroSection = () => {
           Dedicated to making the world a kinder place since 2010. We believe in the power of collective 
           action and compassionate hearts.
         </p>
-        <button className="mt-8 px-8 py-3 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all">
+        <button className="mt-8 px-8 py-3 bg-blue-800 text-white font-bold rounded-xl hover:bg-blue-900 transition-all">
           Support Our Mission
         </button>
       </div>

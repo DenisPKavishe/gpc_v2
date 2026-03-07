@@ -38,9 +38,9 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white dark:bg-slate-800/50">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Meet the Team</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-black">Meet the Team</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {teamMembers.map((member) => (
             <TeamMemberCard key={member.id} member={member} />

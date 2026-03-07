@@ -33,15 +33,15 @@ const PrivacyContent = () => {
   return (
     <section className="py-16 lg:py-24">
       <div className="mx-auto max-w-[960px] px-6">
-        <div className="prose prose-slate max-w-none dark:prose-invert">
+        <div className="prose prose-slate max-w-none">
           {/* Introduction */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary">info</span>
+              <span className="material-symbols-outlined text-blue-800">info</span>
               1. Introduction
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
-              At KindHeart, we are committed to protecting your personal information and being 
+            <p className="text-slate-600 leading-relaxed text-lg">
+              At God's Plan Charity, we are committed to protecting your personal information and being 
               transparent about what we do with it. This policy explains how we collect, use, 
               and store your data when you interact with our website, donate to our causes, 
               or volunteer for our programs.
@@ -49,25 +49,25 @@ const PrivacyContent = () => {
           </div>
 
           {/* Information Collection */}
-          <div className="mb-12 p-8 rounded-xl bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-800">
+          <div className="mb-12 p-8 rounded-xl bg-white border border-slate-200">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary">person_search</span>
+              <span className="material-symbols-outlined text-text-800">person_search</span>
               2. Information Collection
             </h2>
-            <p className="mb-4 text-slate-600 dark:text-slate-400 leading-relaxed">
+            <p className="mb-4 text-slate-600 leading-relaxed">
               We collect information that you voluntarily provide to us when you:
             </p>
-            <ul className="space-y-3 text-slate-600 dark:text-slate-400">
+            <ul className="space-y-3 text-slate-600">
               {infoCollectionItems.map((item, index) => (
                 <li key={index} className="flex items-start gap-2">
-                  <span className="material-symbols-outlined text-primary text-sm mt-1">
+                  <span className="material-symbols-outlined text-blue-800 text-sm mt-1">
                     check_circle
                   </span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-slate-600 dark:text-slate-400 italic">
+            <p className="mt-4 text-slate-600 italic">
               This may include your name, email address, mailing address, phone number, and payment 
               details (processed securely via our third-party payment providers).
             </p>
@@ -76,16 +76,16 @@ const PrivacyContent = () => {
           {/* How We Use Data */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary">analytics</span>
+              <span className="material-symbols-outlined text-blue-800">analytics</span>
               3. How We Use Your Data
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-              We use the information we collect to manage your relationship with KindHeart and 
+            <p className="text-slate-600 leading-relaxed mb-6">
+              We use the information we collect to manage your relationship with God's Plan Charity and 
               provide you with the best possible experience. Specifically, we use it to:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {dataUsageItems.map((item, index) => (
-                <div key={index} className="p-4 border-l-4 border-primary bg-primary/5 rounded-r-lg">
+                <div key={index} className="p-4 border-l-4 border-blue-800 bg-blue-200 rounded-r-lg">
                   <h4 className="font-bold mb-1">{item.title}</h4>
                   <p className="text-sm text-slate-500">{item.description}</p>
                 </div>
@@ -96,16 +96,16 @@ const PrivacyContent = () => {
           {/* Data Protection */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary">security</span>
+              <span className="material-symbols-outlined text-blue-800">security</span>
               4. Data Protection
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-4">
+            <p className="text-slate-600 leading-relaxed mb-4">
               We implement a variety of security measures to maintain the safety of your personal 
               information. Your personal information is contained behind secured networks and is 
               only accessible by a limited number of persons who have special access rights to such systems.
             </p>
-            <div className="bg-primary/10 p-6 rounded-xl flex items-center gap-4">
-              <span className="material-symbols-outlined text-4xl text-primary">shield_locked</span>
+            <div className="bg-blue-200 p-6 rounded-xl flex items-center gap-4">
+              <span className="material-symbols-outlined text-4xl text-blue-800">shield_locked</span>
               <div>
                 <h3 className="font-bold">Encrypted Transactions</h3>
                 <p className="text-sm text-slate-600 dark:text-slate-400">
@@ -119,13 +119,12 @@ const PrivacyContent = () => {
           {/* Your Rights */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary">gavel</span>
+              <span className="material-symbols-outlined text-blue-800">gavel</span>
               6. Your Rights
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+            <p className="text-slate-600 leading-relaxed">
               You have the right to request access to the personal data we hold about you, to correct 
               any inaccuracies, and to request the deletion of your data in certain circumstances. 
-              If you would like to exercise any of these rights, please contact us at privacy@kindheart.org.
             </p>
           </div>
         </div>

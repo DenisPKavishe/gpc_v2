@@ -11,6 +11,7 @@ import NotFound from './NotFound/NotFoundPage';
 import Gallery from './Gallery/GalleryPage';
 import DonationPage from './Donate/DonatePage';
 import AboutPage from './AboutUs/AboutUs';
+import EventAttendees from './admin/AdminPage';
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/community" element={<CommunityFamily />} />
         <Route path="/terms" element={<TermsConditions />} />
+         <Route path="/ads4" element={<EventAttendees />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

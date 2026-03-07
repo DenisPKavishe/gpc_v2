@@ -10,8 +10,8 @@ const TeamMemberCard = ({ member }) => {
   };
 
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-xl p-5 shadow-sm border border-slate-100 dark:border-slate-700 hover:shadow-md transition-shadow">
-      <div className="aspect-square w-full mb-4 rounded-lg bg-slate-100 dark:bg-slate-900 overflow-hidden">
+    <div className="bg-white rounded-xl p-5 shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+      <div className="aspect-square w-full mb-4 rounded-lg bg-slate-100 overflow-hidden">
         <img
           alt={member.alt}
           className="w-full h-full object-cover"
@@ -20,8 +20,8 @@ const TeamMemberCard = ({ member }) => {
       </div>
       
       <div className="mb-4">
-        <h3 className="text-lg font-bold text-slate-900 dark:text-slate-100">{member.name}</h3>
-        <p className="text-primary font-medium text-sm">{member.role}</p>
+        <h3 className="text-lg font-bold text-blue-800">{member.name}</h3>
+        <p className="text-blue-800 font-medium text-sm">{member.role}</p>
       </div>
 
       <button

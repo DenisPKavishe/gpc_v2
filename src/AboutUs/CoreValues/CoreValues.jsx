@@ -22,13 +22,13 @@ const CoreValues = () => {
 
   return (
     <section className="py-20 max-w-7xl mx-auto px-4 text-center">
-      <h2 className="text-3xl font-bold mb-12">Our Core Values</h2>
+      <h2 className="text-3xl font-bold mb-12 text-black">Our Core Values</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {values.map((value, index) => (
           <div key={index} className="p-8">
-            <span className="material-symbols-outlined text-5xl text-primary mb-4">{value.icon}</span>
-            <h3 className="text-xl font-bold mb-2">{value.title}</h3>
-            <p className="text-slate-600 dark:text-slate-400">{value.description}</p>
+            <span className="material-symbols-outlined text-5xl text-blue-800 mb-4">{value.icon}</span>
+            <h3 className="text-xl font-bold mb-2 text-black">{value.title}</h3>
+            <p className="text-slate-600">{value.description}</p>
           </div>
         ))}
       </div>

@@ -10,11 +10,9 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Events', path: '/events' },
-    { name: 'Causes', path: '/causes' },
+    { name: 'Upoming Event', path: '/upcomingevent' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Impact', path: '/impact' },
+    { name: 'Become Member', path: '/community' },
     { name: 'Support', path: '/support' }
   ];
 
@@ -46,22 +44,32 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
             <Link
-              to="/"
-              className="flex items-center gap-2 group"
-              onClick={() => setIsOpen(false)}
-            >
-              <div className="relative">
-                <div className="flex items-center justify-center size-10 rounded-lg bg-primary text-white shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-2xl">volunteer_activism</span>
-                </div>
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tight text-slate-900 dark:text-white">
-                  KindHeart
-                </span>
-                <span className="text-[10px] font-medium text-primary -mt-1">Charity Foundation</span>
-              </div>
-            </Link>
+  to="/"
+  className="flex items-center gap-2 group"
+  onClick={() => setIsOpen(false)}
+>
+  <div className="relative">
+    {/* Logo - Always visible */}
+    <div className="flex items-center justify-center size-10 rounded-lg text-white shadow-lg shadow-blue-900 group-hover:scale-110 transition-transform overflow-hidden">
+      {/* If you have a logo image, uncomment this */}
+      <img 
+        src="./gpc.svg" 
+        alt="God's Plan Charity Logo" 
+        className="w-full h-full object-cover"
+      />
+      {/* Fallback icon - remove this when you add your logo */}
+      {/* <span className="material-symbols-outlined text-2xl">volunteer_activism</span> */}
+    </div>
+  </div>
+  
+  {/* Text - Hidden on mobile, visible on medium screens and up */}
+  <div className="hidden sm:flex flex-col">
+    <span className="text-xl font-black tracking-tight text-slate-900 dark:text-white">
+      God's Plan Charity
+    </span>
+    <span className="text-[10px] font-medium text-blue-800 -mt-1">Charity Foundation</span>
+  </div>
+</Link>
 
             {/* Desktop Navigation - Only Links */}
             <nav className="hidden lg:flex items-center gap-1">
@@ -71,13 +79,13 @@ const Navbar = () => {
                   to={link.path}
                   className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${
                     isActive(link.path)
-                      ? 'text-primary bg-primary/10'
-                      : 'text-slate-700 dark:text-slate-300 hover:text-primary hover:bg-primary/5'
+                      ? 'text-white bg-blue-800'
+                      : 'text-black dark:text-black hover:text-white hover:bg-blue-800'
                   }`}
                 >
                   {link.name}
                   {isActive(link.path) && (
-                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-primary rounded-full"></span>
+                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-1 bg-blue-800 rounded-full"></span>
                   )}
                 </Link>
               ))}
@@ -87,7 +95,7 @@ const Navbar = () => {
             <div className="flex items-center gap-3">
               <Link
                 to="/donate"
-                className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-primary text-white text-sm font-bold hover:bg-primary/90 transition-all hover:scale-105 hover:shadow-lg hover:shadow-primary/20"
+                className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-blue-800 text-white text-sm font-bold hover:bg-primary/90 transition-all hover:scale-105 hover:shadow-lg hover:shadow-primary/20"
               >
                 <span className="material-symbols-outlined text-lg mr-1">favorite</span>
                 Donate
@@ -96,7 +104,7 @@ const Navbar = () => {
               {/* Mobile menu button */}
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="lg:hidden inline-flex items-center justify-center p-2 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-primary/10 hover:text-primary transition-colors"
+                className="lg:hidden inline-flex items-center justify-center p-2 rounded-lg text-black dark:text-black hover:bg-blue-800 hover:text-white transition-colors"
                 aria-label="Toggle menu"
               >
                 <span className="material-symbols-outlined text-2xl">
@@ -119,8 +127,8 @@ const Navbar = () => {
                     to={link.path}
                     className={`flex items-center gap-3 py-3 px-4 rounded-lg transition-all ${
                       isActive(link.path)
-                        ? 'bg-primary/10 text-primary font-medium'
-                        : 'text-slate-700 dark:text-slate-300 hover:bg-primary/5 hover:text-primary'
+                        ? 'bg-blue-800 text-white font-medium'
+                        : 'text-black dark:text-black hover:bg-blue-800 hover:text-white'
                     }`}
                   >
                     {link.name}
@@ -133,7 +141,7 @@ const Navbar = () => {
                 {/* Mobile Donate Button */}
                 <Link
                   to="/donate"
-                  className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 transition-colors mt-6"
+                  className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-blue-800 text-white font-bold hover:bg-blue-900 transition-colors mt-6"
                 >
                   <span className="material-symbols-outlined">favorite</span>
                   Donate Now

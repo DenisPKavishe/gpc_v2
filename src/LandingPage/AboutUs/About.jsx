@@ -9,25 +9,25 @@ const About = () => {
               Our Impact
             </span>
             <h2 className="text-4xl font-black leading-tight">Driven by Purpose, Guided by Compassion</h2>
-            <p className="text-slate-600 dark:text-slate-400 text-lg">
+            <p className="text-slate-600 text-lg">
               Since our founding, we've focused on creating sustainable programs that address the root
               causes of community challenges. Our approach is hands-on and heart-first.
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+            <div className="p-6 rounded-xl border border-slate-200 bg-white">
               <span className="material-symbols-outlined text-blue-800 text-4xl mb-4">favorite</span>
               <h3 className="font-bold text-xl mb-2">Our Mission</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-400">
+              <p className="text-sm text-slate-500">
                 To provide essential resources and unwavering support to underserved families and individuals.
               </p>
             </div>
 
-            <div className="p-6 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50">
+            <div className="p-6 rounded-xl border border-slate-200 bg-white">
               <span className="material-symbols-outlined text-blue-800 text-4xl mb-4">visibility</span>
               <h3 className="font-bold text-xl mb-2">Our Vision</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-400">
+              <p className="text-sm text-slate-500">
                 A world where every community member has the tools, access, and opportunity to thrive.
               </p>
             </div>
@@ -39,7 +39,7 @@ const About = () => {
             <img
               alt="About Image"
               className="w-full h-full object-cover"
-              src="./s1.svg"
+              src="./s1.jpeg"
             />
           </div>
           <div className="absolute -bottom-8 -left-8 bg-blue-800 text-white p-8 rounded-2xl shadow-xl hidden md:block">

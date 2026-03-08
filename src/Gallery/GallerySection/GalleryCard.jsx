@@ -3,7 +3,7 @@ import React from 'react';
 
 const GalleryCard = ({ item }) => {
   return (
-    <div className="masonry-item group relative overflow-hidden rounded-xl bg-slate-100 dark:bg-slate-800 cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300">
+    <div className="masonry-item group relative overflow-hidden rounded-xl bg-slate-100 cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300">
       <img
         className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
         src={item.image}

@@ -1,5 +1,6 @@
 // components/HelpDesk.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CTAHelpDesk = () => {
   const handleEmailSupport = () => {
@@ -25,14 +26,14 @@ const CTAHelpDesk = () => {
       </p>
       
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <button
-          onClick={handleEmailSupport}
+        <a href=''>
+          <button
           className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-bold transition-all flex items-center justify-center gap-2"
         >
           <span className="material-symbols-outlined">mail</span>
           Email Support
         </button>
-        
+        </a>
         <button
           onClick={handleHelpCenter}
           className="bg-white border border-slate-200 text-slate-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-50 transition-all flex items-center justify-center gap-2"

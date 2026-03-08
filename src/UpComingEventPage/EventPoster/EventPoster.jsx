@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 
 const EventPosters = () => {
   const [posters] = useState([
-    { id: 1, src: './s1.svg', alt: 'Charity Gala Poster 1' },
-    { id: 2, src: './s2.svg', alt: 'Charity Gala Poster 2' },
-    { id: 3, src: './s3.svg', alt: 'Charity Gala Poster 3' }
+    { id: 1, src: './s1.jpeg', alt: 'Charity Gala Poster 1' },
+    { id: 2, src: './s2.jpeg', alt: 'Charity Gala Poster 2' },
+    { id: 3, src: './s3.jpeg', alt: 'Charity Gala Poster 3' }
   ]);
 
   const handleDownload = (posterId) => {
@@ -23,7 +23,7 @@ const EventPosters = () => {
       <div className="flex flex-col gap-2 mb-6">
         <h3 className="text-blue-800 text-2xl font-bold">Event Posters</h3>
         <p className="text-slate-600">
-          Spread the word! Download and share these posters to help us reach more people.
+          Event posters.
         </p>
       </div>
 

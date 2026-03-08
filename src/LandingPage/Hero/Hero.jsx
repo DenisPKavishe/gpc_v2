@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           alt="Hero Background"
           className="w-full h-full object-cover"
-          src="./s2.svg"
+          src="./gallery/16.jpg"
         />
       </div>
 
@@ -27,9 +27,11 @@ const Hero = () => {
               Donate Now
             </button>
             </Link>
+            <Link to='/about'>
             <button className="bg-white/10 backdrop-blur-md text-white border border-white/20 text-lg font-bold px-8 py-4 rounded-xl hover:bg-white/20 transition-colors">
               About Us
             </button>
+            </Link>
           </div>
         </div>
       </div>

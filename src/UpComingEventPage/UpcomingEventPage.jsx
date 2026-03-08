@@ -1,4 +1,6 @@
 import DonationSection from "../Donate/DonateSection/DonateSection";
+import AlertBar from "../LandingPage/AlertBar/Alert";
+import FloatingActionsButtons from "../LandingPage/FloatingActionButtons/FloatingActionButtons";
 import Footer from "../LandingPage/Footer/Footer";
 import Navbar from "../LandingPage/Navbar/Navbar";
 import CenterStats from "./CenterStat/CenterStat";
@@ -10,6 +12,7 @@ import RegistrationForm from "./RegistrationForm/RegistrationForm";
 export default function UpcomingEvent(){
     return(
         <>
+                <AlertBar />
                 <Navbar />
                 <div className="px-2 sm:px-20 bg-blue-100">
                 
@@ -21,7 +24,7 @@ export default function UpcomingEvent(){
                 <div className="py-3">
                     <DonationSection />
                 </div>
-                
+                <FloatingActionsButtons />
                 
             </div>
             <Footer />

@@ -16,7 +16,7 @@ const HeroSection = () => {
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
-                to="https://wa.me/255746965913"
+                to="https://chat.whatsapp.com/EWvwmyTs7LzGdxveIOu8tz"
                 className="flex items-center gap-2 rounded-xl bg-[#25D366] px-6 py-3 text-white font-bold transition-transform hover:scale-105"
               >
                 <span className="material-symbols-outlined">chat</span>
@@ -39,8 +39,8 @@ const HeroSection = () => {
                   <span className="material-symbols-outlined">favorite</span>
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-slate-900">12k+ Supporters</p>
-                  <p className="text-xs text-slate-500">Global community</p>
+                  <p className="text-sm font-bold text-slate-900">150+ Supporters</p>
+                  <p className="text-xs text-slate-500">Everywhere</p>
                 </div>
               </div>
             </div>

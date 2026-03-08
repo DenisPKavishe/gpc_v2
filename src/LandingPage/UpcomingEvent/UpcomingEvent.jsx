@@ -1,12 +1,13 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const UpcomingEvent = () => {
   const [timeLeft, setTimeLeft] = useState({
-    days: 15,
-    hours: 8,
-    minutes: 42,
-    seconds: 12,
+    days: 40,
+    hours: 60,
+    minutes: 60,
+    seconds: 60,
   });
 
   useEffect(() => {
@@ -36,15 +37,15 @@ const UpcomingEvent = () => {
           <img
             alt="Featured Event Background"
             className="w-full h-full object-cover"
-            src="./s3.svg"
+            src="./s4.jpeg"
           />
         </div>
 
         <div className="relative z-20 max-w-3xl px-5 py-3 md:px-16 space-y-8">
           <div className="inline-flex items-center gap-2 bg-blue-600 backdrop-blur-md border border-blue-700 px-4 py-2 rounded-full text-white text-xs font-black uppercase tracking-widest">
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-800 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-800"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-300"></span>
             </span>
             Featured Upcoming Event
           </div>
@@ -60,7 +61,7 @@ const UpcomingEvent = () => {
               <span className="material-symbols-outlined text-blue-800 bg-white p-1 rounded-lg">
                 calendar_today
               </span>
-              <span className="font-bold">April 15, 2026</span>
+              <span className="font-bold">April 25, 2026</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="material-symbols-outlined text-blue-800 bg-white p-1 rounded-lg">
@@ -92,10 +93,12 @@ const UpcomingEvent = () => {
           </div>
 
           <div className="pt-4">
+            <Link to='/upcomingevent'>
             <button className="bg-blue-800 text-white text-lg font-bold px-10 py-4 rounded-xl hover:scale-105 transition-transform flex items-center gap-3">
               Include Me
               <span className="material-symbols-outlined">person_add</span>
             </button>
+            </Link>
           </div>
         </div>
       </div>

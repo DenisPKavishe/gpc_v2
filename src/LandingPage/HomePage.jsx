@@ -23,7 +23,7 @@ export default function HomePage(){
             <About />
             <Events />
             <NeedsData />
-            <SuccessStories />
+            {/* <SuccessStories /> */}
             <GalleryHero />
             <Testimonials />
             <FAQ />

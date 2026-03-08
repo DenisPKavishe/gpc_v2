@@ -9,9 +9,9 @@ const HistorySection = () => {
           <h2 className="text-3xl font-bold mb-6 text-black">How We Started</h2>
           <div className="space-y-4 text-slate-600 leading-relaxed">
             <p>
-              God's Plan Charity began in a small community center in 2024. What started as a group of ten 
-              volunteers providing meals to local families in need has grown into a global organization 
-              impacting thousands of lives across three continents.
+              God's Plan Charity began in a small community center in 2024. What started with few 
+              volunteers providing meals to local families in need has grown into an organization which
+              impacting hundreds of lives across Arusha Tanzania and nearest regions.
             </p>
             <p>
               Our founder, witnessed first-hand the disparities in access to clean water 
@@ -30,7 +30,7 @@ const HistorySection = () => {
           <img
             alt="Black and white photo of the first team of KindHeart volunteers in 2010"
             className="w-full h-full object-cover"
-            src="./s1.svg"
+            src="./s1.jpeg"
           />
         </div>
       </div>

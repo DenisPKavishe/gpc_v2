@@ -10,7 +10,7 @@ const FloatingActionsButtons = () => {
   return (
     <div className="fixed bottom-8 right-8 z-[100] flex flex-col gap-3">
         <a
-        href="#"
+        href="https://chat.whatsapp.com/EWvwmyTs7LzGdxveIOu8tz"
         className="w-12 h-12 bg-[#25D366] text-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         title="WhatsApp Support"
       >

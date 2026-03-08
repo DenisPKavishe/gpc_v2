@@ -23,7 +23,7 @@ const CommunityJoin = () => {
             
             <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-center">
               <Link
-                to="#"
+                to="https://chat.whatsapp.com/EWvwmyTs7LzGdxveIOu8tz"
                 className="flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform"
               >
                 <span className="material-symbols-outlined">chat</span> WhatsApp Group

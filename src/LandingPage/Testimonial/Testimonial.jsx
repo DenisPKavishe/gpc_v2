@@ -6,7 +6,7 @@ const Testimonials = () => {
       name: 'Denis Priscus',
       role: "God's Plan Charity Member",
       content:
-        'Working with KindHeart has been the most rewarding experience of my life. Seeing the direct impact on families is incredible and keeps me motivated every day.',
+        'Working with Gods Plan Charity has been the most rewarding experience of my life. Seeing the direct impact on families is incredible and keeps me motivated every day.',
       rating: 5,
     },
     {
@@ -14,7 +14,7 @@ const Testimonials = () => {
       name: 'Rahma',
       role: "God's Plan Charity Member",
       content:
-        'I trust KindHeart with my contributions because I see exactly where the help goes. Their transparency and dedication to the local community is truly refreshing.',
+        'I trust Gods Plan Charity with my contributions because I see exactly where the help goes. Their transparency and dedication to the local community is truly refreshing.',
       rating: 5,
     },
     {
@@ -41,7 +41,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white dark:bg-background-dark p-8 rounded-xl shadow-sm border border-slate-100 dark:border-slate-800 flex flex-col h-full"
+              className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex flex-col h-full"
             >
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center text-blue-800">

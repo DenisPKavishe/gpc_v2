@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
 const SuccessStories = () => {
   return (
-    <section className="py-24 bg-white dark:bg-background-dark/30">
+    <section className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl font-black">Stories of Hope</h2>
@@ -11,7 +12,7 @@ const SuccessStories = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          <div className="flex flex-col md:flex-row gap-8 items-center bg-background-light dark:bg-background-dark p-8 rounded-[2.5rem] border border-slate-100 dark:border-slate-800 shadow-sm">
+          <div className="flex flex-col md:flex-row gap-8 items-center bg-background-light p-8 rounded-[2.5rem] border border-slate-100 shadow-sm">
             <div className="w-full md:w-1/2 aspect-square rounded-3xl overflow-hidden shrink-0">
               <img
                 alt="Smiling person"
@@ -36,7 +37,7 @@ const SuccessStories = () => {
           </div>
 
           {/* Current Need Story Card */}
-          <div className="flex flex-col md:flex-row gap-8 items-center bg-blue-200 dark:bg-blue-200 p-8 rounded-[2.5rem] border border-blue-400 shadow-sm">
+          <div className="flex flex-col md:flex-row gap-8 items-center bg-blue-200 p-8 rounded-[2.5rem] border border-blue-400 shadow-sm">
             <div className="w-full md:w-1/2 aspect-square rounded-3xl overflow-hidden shrink-0">
               <img
                 alt="Child in need"
@@ -54,10 +55,12 @@ const SuccessStories = () => {
                 // components/SuccessStories.jsx (continued)
                 supplies and a stable learning environment, her education is at risk. Your support can provide the tools she needs to excel.
               </p>
+              <Link to='/donate'>
               <button className="w-full bg-blue-800 text-white text-sm font-bold py-3 rounded-xl hover:shadow-lg hover:shadow-blue-200 transition-all flex items-center justify-center gap-2">
                 Donate to This Cause
                 <span className="material-symbols-outlined text-sm">volunteer_activism</span>
               </button>
+              </Link>
             </div>
           </div>
         </div>

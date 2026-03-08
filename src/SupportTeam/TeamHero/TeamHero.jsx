@@ -8,7 +8,7 @@ const TeamHero = () => {
         Meet Our <span className="text-blue-800">Support Team</span>
       </h1>
       <p className="text-lg text-slate-600 leading-relaxed">
-        We're here to help you make a difference. Whether you have questions about your monthly donations, 
+        We're here to help you make a difference. Whether you have questions about your donations, 
         want to join our volunteer program, or need technical assistance with our platform, our dedicated 
         team of specialists is ready to assist you.
       </p>

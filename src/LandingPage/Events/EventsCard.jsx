@@ -25,19 +25,19 @@ const EventCard = ({ event }) => {
           {event.title}
         </h3>
 
-        <p className="text-slate-500 dark:text-slate-400 text-sm line-clamp-2">
+        <p className="text-slate-500 text-sm line-clamp-2">
           {event.description}
         </p>
 
         <div className="grid grid-cols-2 gap-2 pt-4 border-t border-slate-100 mt-4">
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-slate-900 dark:text-white">
+            <span className="text-xs font-bold text-slate-900">
               {event.attendees}
             </span>
             <span className="text-[10px] uppercase text-slate-500">Attendees</span>
           </div>
           <div className="flex flex-col">
-            <span className="text-xs font-bold text-slate-900 dark:text-white">
+            <span className="text-xs font-bold text-slate-900">
               {event.childrenImpacted}
             </span>
             <span className="text-[10px] uppercase text-slate-500">Children Impacted</span>

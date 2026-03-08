@@ -14,7 +14,7 @@ const EventInfo = () => {
     {
       icon: 'featured_seasonal_and_gifts',
       title: 'Event Kit',
-      description: 'Activity materials and souvenir t-shirt.'
+      description: 'Activity materials and center needs.'
     }
   ];
 

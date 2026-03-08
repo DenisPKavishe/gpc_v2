@@ -1,7 +1,7 @@
 
 const NeedCard = ({ need }) => {
   return (
-    <div className="flex flex-col gap-4 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark/50 hover:border-blue-800 transition-colors cursor-pointer group">
+    <div className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white hover:border-blue-800 transition-colors cursor-pointer group">
       <div className="h-48 overflow-hidden relative rounded-t-2xl">
         <img
           alt={need.title}
@@ -28,9 +28,9 @@ const NeedCard = ({ need }) => {
           <p className="text-xs font-medium text-blue-800 mb-2">
             Supports {need.childrenSupported} Children
           </p>
-          <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">{need.description}</p>
+          <p className="text-sm text-slate-500 mb-4">{need.description}</p>
 
-          <ul className="text-xs text-slate-500 dark:text-slate-400 space-y-1 mb-4">
+          <ul className="text-xs text-slate-500 space-y-1 mb-4">
             {need.items.map((item, index) => (
               <li key={index} className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-blue-800 rounded-full"></span>
@@ -40,14 +40,15 @@ const NeedCard = ({ need }) => {
           </ul>
         </div>
 
-        <div className="w-full bg-slate-200 h-2 rounded-full mt-2">
+        {/* <div className="w-full bg-slate-200 h-2 rounded-full mt-2">
           <div
             className="bg-blue-800 h-2 rounded-full"
             style={{ width: `${need.percentage}%` }}
           ></div>
         </div>
         <p className="text-xs font-bold text-blue-800">{need.percentage}% Collected</p>
-      </div>
+      </div> */}
+    </div>
     </div>
   );
 };

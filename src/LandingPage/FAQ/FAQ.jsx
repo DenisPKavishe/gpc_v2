@@ -39,7 +39,7 @@ const FAQ = () => {
         {faqItems.map((item) => (
           <div
             key={item.id}
-            className="border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden bg-white dark:bg-background-dark/50 hover:border-blue-500 transition-colors group cursor-pointer"
+            className="border border-slate-200 rounded-xl overflow-hidden bg-white hover:border-blue-500 transition-colors group cursor-pointer"
             onClick={() => toggleItem(item.id)}
           >
             <div className="p-6 flex items-center justify-between">
@@ -55,7 +55,7 @@ const FAQ = () => {
 
             {openItems[item.id] && (
               <div className="px-6 pb-6">
-                <p className="text-slate-600 dark:text-slate-400">{item.answer}</p>
+                <p className="text-slate-600">{item.answer}</p>
               </div>
             )}
           </div>

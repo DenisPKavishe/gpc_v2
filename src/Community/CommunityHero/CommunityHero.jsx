@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -23,12 +24,16 @@ const HeroSection = () => {
         </div>
 
         <div className="flex flex-wrap gap-4 justify-center mt-4">
+          <Link to='https://chat.whatsapp.com/EWvwmyTs7LzGdxveIOu8tz'>
           <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-12 px-8 bg-white text-blue-800 text-base font-bold hover:bg-slate-100 transition-colors shadow-lg shadow-blue-900">
             Join Our Mission
           </button>
+          </Link>
+          <Link to='/about'>
           <button className="flex min-w-[160px] cursor-pointer items-center justify-center rounded-xl h-12 px-8 bg-blue-800 text-white text-base font-bold border border-white/20 hover:bg-blue-900 transition-colors">
             Learn More
           </button>
+          </Link>
         </div>
       </div>
     </section>

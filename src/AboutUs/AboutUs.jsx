@@ -23,7 +23,7 @@ const AboutPage = () => {
         
         <HistorySection />
         <CoreValues />
-        <TeamSection />
+        {/* <TeamSection /> */}
         <CTASection />
       </main>
       <FloatingActionsButtons />

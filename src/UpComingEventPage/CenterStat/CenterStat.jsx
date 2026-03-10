@@ -24,7 +24,7 @@ const CenterStats = () => {
           </p>
         </div>
         <p className="text-slate-900 tracking-tight text-xl font-bold leading-tight">
-          45 Children (Ages 5-12)
+          40 Children (Ages 5-17)
         </p>
       </div>
     </div>

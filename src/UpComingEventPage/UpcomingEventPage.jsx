@@ -3,6 +3,7 @@ import AlertBar from "../LandingPage/AlertBar/Alert";
 import FloatingActionsButtons from "../LandingPage/FloatingActionButtons/FloatingActionButtons";
 import Footer from "../LandingPage/Footer/Footer";
 import Navbar from "../LandingPage/Navbar/Navbar";
+import CenterEnvironment from "./CenterEnvironment/CenterEnvironment";
 import CenterStats from "./CenterStat/CenterStat";
 import EventInfo from "./EventInfo/Eventinfo";
 import EventPosters from "./EventPoster/EventPoster";
@@ -19,6 +20,10 @@ export default function UpcomingEvent(){
                 <UpcomingHero />
                 <CenterStats />
                 <EventInfo />
+                <div className="mb-4">
+                    <CenterEnvironment />
+                </div>
+                
                 <EventPosters />
                 <RegistrationForm />
                 <div className="py-3">

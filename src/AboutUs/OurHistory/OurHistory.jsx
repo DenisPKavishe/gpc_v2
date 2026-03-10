@@ -15,7 +15,7 @@ const HistorySection = () => {
             </p>
             <p>
               Our founder, witnessed first-hand the disparities in access to clean water 
-              and education during her travels. She returned home with a singular focus: to create a 
+              and education during his travels. He returned home with a singular focus: to create a 
               platform that connects those who can give with those who need it most, ensuring transparency 
               and direct impact.
             </p>

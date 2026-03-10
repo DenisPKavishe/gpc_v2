@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="relative z-20 text-center px-4">
         <h1 className="text-white text-5xl md:text-7xl font-black mb-6 tracking-tight">Our Story</h1>
         <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-          Dedicated to making the world a kinder place since 2010. We believe in the power of collective 
+          Dedicated to making the world a kinder place since 2024. We believe in the power of collective 
           action and compassionate hearts.
         </p>
         <button className="mt-8 px-8 py-3 bg-blue-800 text-white font-bold rounded-xl hover:bg-blue-900 transition-all">

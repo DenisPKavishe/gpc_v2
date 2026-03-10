@@ -30,7 +30,7 @@ const EventInfo = () => {
           </p>
         </div>
         <div className="flex items-baseline gap-1">
-          <span className="text-blue-800 text-4xl font-black">Tshs 20,000/=</span>
+          <span className="text-blue-800 text-4xl font-black">Tshs 25,000/=</span>
           <span className="text-slate-500 font-medium">per person</span>
         </div>
       </div>

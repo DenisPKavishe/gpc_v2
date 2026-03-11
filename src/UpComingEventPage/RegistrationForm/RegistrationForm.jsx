@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { supabase } from '../../supabaseClient';
+import supabase from '../../supabaseClient';
 
 const CheckIcon = () => (
   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -83,7 +83,7 @@ const RegistrationForm = () => {
     setStatus('loading');
 
     const { error } = await supabase
-      .from('registrations')
+      .from('registration')
       .insert([{
         name:          formData.name.trim(),
         phone:         formData.phone,

@@ -39,7 +39,7 @@ const About = () => {
             <img
               alt="About Image"
               className="w-full h-full object-cover"
-              src="./s1.jpeg"
+              src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s1_sfc67j.jpg"
             />
           </div>
           <div className="absolute -bottom-8 -left-8 bg-blue-800 text-white p-8 rounded-2xl shadow-xl hidden md:block">

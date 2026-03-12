@@ -21,23 +21,8 @@ const GalleryHero = () => {
         <p className="text-lg text-slate-600">
           Witness the transformation and hope we build together across the globe through your generous support.
         </p>
+        <p className='text-slate-600 mt-2 mb-2'>For more images visit: <a href="https://njirostudios.pixieset.com/godsplancharityseason03/" className='text-blue-800'>God's Plan Charity Season 03</a></p> 
       </div>
-      
-      {/* <div className="flex flex-wrap gap-2">
-        {filters.map((filter) => (
-          <button
-            key={filter}
-            onClick={() => setActiveFilter(filter)}
-            className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
-              activeFilter === filter
-                ? 'bg-blue-800 text-white shadow-sm shadow-blue-900'
-                : 'bg-white border border-slate-200 text-slate-600 hover:border-blue-900 hover:text-blue-800'
-            }`}
-          >
-            {filter}
-          </button>
-        ))}
-      </div> */}
     </div>
   );
 };

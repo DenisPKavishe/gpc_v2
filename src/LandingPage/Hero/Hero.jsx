@@ -8,7 +8,7 @@ const Hero = () => {
         <img
           alt="Hero Background"
           className="w-full h-full object-cover"
-          src="./gallery/16.jpg"
+          src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315876/16_ihwabg.jpg"
         />
       </div>
 

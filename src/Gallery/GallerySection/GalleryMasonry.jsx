@@ -11,7 +11,7 @@ const GalleryMasonry = () => {
       category: 'Education',
       title: 'Bright Futures Ahead',
       description: 'Providing essential school supplies to over 500 children in rural communities.',
-      image: './gallery/6.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315885/6_o7t5ew.jpg',
       minHeight: 320
     },
     {
@@ -19,7 +19,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Hunger Relief Program',
       description: 'Our amazing volunteers serving over 1,000 warm meals weekly.',
-      image: './gallery/7.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315884/7_nyzanc.jpg',
       minHeight: 480
     },
     {
@@ -27,7 +27,7 @@ const GalleryMasonry = () => {
       category: 'Health',
       title: 'Mobile Clinics',
       description: 'Bringing healthcare expertise to remote villages across the region.',
-      image: './gallery/8.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315881/8_tazve5.jpg',
       minHeight: 280
     },
     {
@@ -35,7 +35,7 @@ const GalleryMasonry = () => {
       category: 'Sustainability',
       title: 'Green Roots Garden',
       description: 'Empowering families to grow their own sustainable food sources.',
-      image: './gallery/9.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315886/9_qs7bn1.jpg',
       minHeight: 400
     },
     {
@@ -43,7 +43,7 @@ const GalleryMasonry = () => {
       category: 'Joy',
       title: 'Pure Smiles',
       description: 'Capturing moments of pure joy from our summer youth program.',
-      image: './gallery/10.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315879/10_fyho6x.jpg',
       minHeight: 450
     },
     {
@@ -51,7 +51,7 @@ const GalleryMasonry = () => {
       category: 'Health',
       title: 'Clean Water Access',
       description: 'Installing sustainable water filtration systems for healthy communities.',
-      image: './gallery/11.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315878/11_mjvevg.jpg',
       minHeight: 300
     },
     {
@@ -59,23 +59,23 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Reforestation Project',
       description: 'Our team planted over 2,000 trees this Earth Day to restore local habitats.',
-      image: './gallery/12.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315879/12_b5s7cq.jpg',
       minHeight: 380
     },
     {
       id: 8,
       category: 'Community',
-      title: 'Golden Years Program',
-      description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/13.jpg',
-      minHeight: 340
+      title: 'Reforestation Project',
+      description: 'Our team planted over 2,000 trees this Earth Day to restore local habitats.',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s1_sfc67j.jpg',
+      minHeight: 380
     },
     {
       id: 9,
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/14.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315876/14_zzrvbf.jpg',
       minHeight: 340
     },
     {
@@ -83,7 +83,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/15.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315872/15_hxcgsp.jpg',
       minHeight: 340
     },
     {
@@ -91,7 +91,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/16.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315876/16_ihwabg.jpg',
       minHeight: 340
     },
     {
@@ -99,7 +99,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/17.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315873/17_utwvjh.jpg',
       minHeight: 340
     },
     {
@@ -107,7 +107,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/18.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315872/18_eexhil.jpg',
       minHeight: 340
     },
     {
@@ -115,7 +115,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/1.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315888/1_vkjovw.jpg',
       minHeight: 340
     },
     {
@@ -123,7 +123,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/2.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315888/2_bh5ima.jpg',
       minHeight: 340
     },
     {
@@ -131,7 +131,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/3.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315890/3_k6uwhk.jpg',
       minHeight: 340
     },
     {
@@ -139,7 +139,7 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/4.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315883/4_hyeszw.jpg',
       minHeight: 340
     },
     {
@@ -147,9 +147,17 @@ const GalleryMasonry = () => {
       category: 'Community',
       title: 'Golden Years Program',
       description: 'Supporting our elders through social engagement and creative workshops.',
-      image: './gallery/5.jpg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315885/5_thyfmw.jpg',
       minHeight: 340
-    }
+    },
+    {
+      id: 19,
+      category: 'Community',
+      title: 'Golden Years Program',
+      description: 'Supporting our elders through social engagement and creative workshops.',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315875/13_geadnv.jpg',
+      minHeight: 340
+    },
   ];
 
   const handleLoadMore = () => {

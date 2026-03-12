@@ -8,7 +8,7 @@ const TeamGrid = () => {
       id: 1,
       name: 'Denis Priscus',
       role: 'Developer, Graphic Designer and Coordinator',
-      image: './denis.jpeg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315886/denis_qpgujn.jpg',
       alt: 'denis',
       tsup: 'https://wa.me/255746965913'
     },
@@ -16,7 +16,7 @@ const TeamGrid = () => {
       id: 2,
       name: 'Goodluck Valentine',
       role: 'Developer and Main Coordinator',
-      image: './goodluck.jpeg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315866/goodluck_hvyj0o.jpg',
       alt: 'goodluck',
       tsup: 'https://wa.me/255756002103'
     },
@@ -24,7 +24,7 @@ const TeamGrid = () => {
       id: 3,
       name: 'Rahma',
       role: 'Coordinator and representative',
-      image: './rahma.jpeg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315866/rahma_orjj4v.jpg',
       alt: 'rahma',
       tsup: 'https://wa.me/255742343776'
     },
@@ -32,7 +32,7 @@ const TeamGrid = () => {
       id: 4,
       name: 'Dominic Chuwa',
       role: 'Secretary and Developer',
-      image: './dommy.jpeg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318975/domy_b7zzgc.jpg',
       alt: 'domy',
       tsup: 'https://wa.me/255659263416'
     },
@@ -40,7 +40,7 @@ const TeamGrid = () => {
       id: 5,
       name: 'John Joseph',
       role: 'Coordinator',
-      image: './jjmakuru.jpeg',
+      image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315886/jjmakuru_eurvyc.jpg',
       alt: 'domy',
       tsup: 'https://wa.me/255760370490'
     }

@@ -30,7 +30,7 @@ const HeroSection = () => {
               <img
                 alt="Group of diverse children smiling in a classroom setting"
                 className="h-full w-full object-cover"
-                src="./s3.svg"
+                src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315866/s3_o3iob8.jpg"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-2xl bg-white p-6 shadow-xl border border-slate-100">

@@ -37,7 +37,7 @@ const UpcomingEvent = () => {
           <img
             alt="Featured Event Background"
             className="w-full h-full object-cover"
-            src="./s4.jpeg"
+            src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg"
           />
         </div>
 

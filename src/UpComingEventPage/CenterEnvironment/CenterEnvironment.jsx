@@ -104,35 +104,56 @@ const CenterEnvironment = () => {
   const galleryImages = [
     {
       id: 1,
-      src: '/center/c1.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318306/c1_rduxye.jpg',
       alt: 'Children at the center learning',
       caption: 'Children at our center deserve a comfortable, dignified environment',
       category: 'Children'
     },
     {
       id: 2,
-      src: '/center/c2.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318307/c2_qgcooy.jpg',
       alt: 'Center facilities needing improvement',
       caption: 'Daily operations require basic necessities like water, electricity, and bedding',
       category: 'Facilities'
     },
     {
       id: 3,
-      src: '/center/c3.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318307/c3_bvtt5g.jpg',
       alt: 'Sleeping area with worn-out mattresses',
       caption: 'Our sleeping area urgently needs new mattresses and sheets',
       category: 'Sleeping'
     },
     {
       id: 4,
-      src: '/center/c4.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318308/c4_qbedqf.jpg',
       alt: 'Kitchen area with limited equipment',
       caption: 'Kitchen needs pots, plates, and cooking equipment',
       category: 'Kitchen'
     },
     {
       id: 5,
-      src: '/center/c5.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg',
+      alt: 'Children eating meals',
+      caption: 'Meal times require dishes and proper utensils',
+      category: 'Children'
+    },
+    {
+      id: 6,
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318682/c8_s52bxz.jpg',
+      alt: 'Children eating meals',
+      caption: 'Meal times require dishes and proper utensils',
+      category: 'Children'
+    },
+    {
+      id: 7,
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318683/c6_mtpyw2.jpg',
+      alt: 'Children eating meals',
+      caption: 'Meal times require dishes and proper utensils',
+      category: 'Children'
+    },
+    {
+      id: 8,
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773318684/c7_qiueco.jpg',
       alt: 'Children eating meals',
       caption: 'Meal times require dishes and proper utensils',
       category: 'Children'

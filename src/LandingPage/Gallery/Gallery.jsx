@@ -3,37 +3,37 @@ const GalleryHero = () => {
   const galleryImages = [
     {
       id: 1,
-      src: './gallery/1.jpg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315888/1_vkjovw.jpg',
       alt: 'People planting trees in a park',
       span: 'col-span-1',
     },
     {
       id: 2,
-      src: './rahma.jpeg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315866/rahma_orjj4v.jpg',
       alt: 'Volunteers talking with elderly community members',
       span: 'md:row-span-2',
     },
     {
       id: 3,
-      src: './gallery/2.jpg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315888/2_bh5ima.jpg',
       alt: 'Children smiling at a community event',
       span: 'col-span-1',
     },
     {
       id: 4,
-      src: './gallery/3.jpg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315890/3_k6uwhk.jpg',
       alt: 'Volunteers distributing clothes to those in need',
       span: 'md:col-span-1',
     },
     {
       id: 5,
-      src: './gallery/4.jpg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315883/4_hyeszw.jpg',
       alt: 'A group of smiling volunteers in blue shirts',
       span: 'col-span-1',
     },
     {
       id: 6,
-      src: './gallery/5.jpg',
+      src: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315885/5_thyfmw.jpg',
       alt: 'Wide shot of community park development project',
       span: 'md:col-span-2',
     },

@@ -30,7 +30,7 @@ const HistorySection = () => {
           <img
             alt="Black and white photo of the first team of KindHeart volunteers in 2010"
             className="w-full h-full object-cover"
-            src="./s1.jpeg"
+            src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s1_sfc67j.jpg"
           />
         </div>
       </div>

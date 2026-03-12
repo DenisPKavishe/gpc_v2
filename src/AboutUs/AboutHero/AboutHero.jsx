@@ -8,7 +8,7 @@ const HeroSection = () => {
       <img
         alt="Diverse group of volunteers helping community members in a sunlit outdoor setting"
         className="absolute inset-0 w-full h-full object-cover"
-        src="./s2.jpeg"
+        src="https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s2_ncpnep.jpg"
       />
       <div className="relative z-20 text-center px-4">
         <h1 className="text-white text-5xl md:text-7xl font-black mb-6 tracking-tight">Our Story</h1>

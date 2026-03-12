@@ -8,7 +8,7 @@ const UpcomingHero = () => {
         <div
           className="bg-cover rounded-xl bg-center flex flex-col justify-end overflow-hidden bg-slate-200 min-h-[400px] relative"
           style={{
-            backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0)), url("./s4.jpeg")`
+            backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg")`
           }}
         >
           <div className="flex flex-col p-6 md:p-10 gap-2">

@@ -12,7 +12,7 @@ const ContactCTA = () => {
       
       <div className="flex gap-4">
         <Link
-          to="/contact"
+          to="/support"
           className="px-6 py-2.5 rounded-lg border border-slate-300 text-slate-700 font-semibold hover:bg-slate-200 transition-colors"
         >
           Contact Support

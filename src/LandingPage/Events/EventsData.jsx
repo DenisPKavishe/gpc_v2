@@ -7,7 +7,7 @@ const Events = () => {
     {
       id: 1,
       title: 'Namanga Home Visitation',
-      date: 'Oct 25, 2024',
+      date: 'Apr 25, 2026',
       description: 'Helping local families access fresh, nutritious meals this autumn season.',
       image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s4_lp8qey.jpg',
       status: 'Upcoming',
@@ -37,7 +37,7 @@ const Events = () => {
     {
       id: 4,
       title: 'LEGANGA, USA-ARUSHA',
-      date: 'Apr 12, 2025',
+      date: 'June 24, 2024',
       description: "It's our first experience but it was amaizing experience ever through eating, playing and social activities was extraordinary.",
       image: 'https://res.cloudinary.com/dkxr2hmvn/image/upload/v1773315867/s1_sfc67j.jpg',
       status: 'Season 01',

@@ -36,7 +36,7 @@ const EventPosters = () => {
             <div className="aspect-[3/4] w-full bg-slate-100 overflow-hidden">
               <img
                 alt={poster.alt}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                className="h-full w-full object-cover transition-transform duration-300"
                 src={poster.src}
               />
             </div>

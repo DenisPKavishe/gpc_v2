@@ -1,31 +1,27 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+const TARGET_DATE = new Date('2026-04-25T00:00:00');
+
+const getTimeLeft = () => {
+  const diff = TARGET_DATE - new Date();
+  if (diff <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+
+  return {
+    days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+    hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
+    minutes: Math.floor((diff / (1000 * 60)) % 60),
+    seconds: Math.floor((diff / 1000) % 60),
+  };
+};
+
 const UpcomingEvent = () => {
-  const [timeLeft, setTimeLeft] = useState({
-    days: 40,
-    hours: 60,
-    minutes: 60,
-    seconds: 60,
-  });
+  const [timeLeft, setTimeLeft] = useState(getTimeLeft);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev.seconds > 0) {
-          return { ...prev, seconds: prev.seconds - 1 };
-        } else if (prev.minutes > 0) {
-          return { ...prev, minutes: prev.minutes - 1, seconds: 59 };
-        } else if (prev.hours > 0) {
-          return { ...prev, hours: prev.hours - 1, minutes: 59, seconds: 59 };
-        } else if (prev.days > 0) {
-          return { ...prev, days: prev.days - 1, hours: 23, minutes: 59, seconds: 59 };
-        }
-        return prev;
-      });
+      setTimeLeft(getTimeLeft());
     }, 1000);
-
     return () => clearInterval(timer);
   }, []);
 
@@ -94,10 +90,10 @@ const UpcomingEvent = () => {
 
           <div className="pt-4">
             <Link to='/upcomingevent'>
-            <button className="bg-blue-800 text-white text-lg font-bold px-10 py-4 rounded-xl hover:scale-105 transition-transform flex items-center gap-3">
-              Include Me
-              <span className="material-symbols-outlined">person_add</span>
-            </button>
+              <button className="bg-blue-800 text-white text-lg font-bold px-10 py-4 rounded-xl hover:scale-105 transition-transform flex items-center gap-3">
+                Include Me
+                <span className="material-symbols-outlined">person_add</span>
+              </button>
             </Link>
           </div>
         </div>

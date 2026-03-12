@@ -10,7 +10,7 @@ const HistorySection = () => {
           <div className="space-y-4 text-slate-600 leading-relaxed">
             <p>
               God's Plan Charity began in a small community center in 2024. What started with few 
-              volunteers providing meals to local families in need has grown into an organization which
+              volunteers providing needs to local families in need has grown into an organization which
               impacting hundreds of lives across Arusha Tanzania and nearest regions.
             </p>
             <p>

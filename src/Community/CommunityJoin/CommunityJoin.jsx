@@ -29,7 +29,7 @@ const CommunityJoin = () => {
                 <span className="material-symbols-outlined">chat</span> WhatsApp Group
               </Link>
               <Link
-                to="#"
+                to="mailto:godsplancharity255@gmail.com"
                 className="flex items-center gap-2 bg-blue-800 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform"
               >
                 <span className="material-symbols-outlined">mail</span> Newsletter

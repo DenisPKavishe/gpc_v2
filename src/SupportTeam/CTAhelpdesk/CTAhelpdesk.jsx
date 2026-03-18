@@ -21,26 +21,19 @@ const CTAHelpDesk = () => {
         Still have questions?
       </h2>
       <p className="text-slate-600 max-w-2xl mx-auto mb-8">
-        If you're not sure who to talk to, or if your inquiry is more general, feel free to reach out 
+        If you're not sure who to talk to, or if your inquiry is more general, feel free to reach out
         to our primary help desk. We usually respond within 2 hours.
       </p>
-      
+
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href=''>
+        <a href='mailto:godsplancharity255@gmail.com'>
           <button
-          className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-bold transition-all flex items-center justify-center gap-2"
-        >
-          <span className="material-symbols-outlined">mail</span>
-          Email Support
-        </button>
+            className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-bold transition-all flex items-center justify-center gap-2"
+          >
+            <span className="material-symbols-outlined">mail</span>
+            Email Support
+          </button>
         </a>
-        <button
-          onClick={handleHelpCenter}
-          className="bg-white border border-slate-200 text-slate-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-50 transition-all flex items-center justify-center gap-2"
-        >
-          <span className="material-symbols-outlined">help_center</span>
-          Visit Help Center
-        </button>
       </div>
     </div>
   );

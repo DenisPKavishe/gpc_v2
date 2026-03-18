@@ -64,10 +64,12 @@ const Footer = () => {
                 <span className="material-symbols-outlined text-white">call</span>
                 +2556 592 63416
               </li>
+              <a href="mailto:godsplancharity255@gmail.com">
               <li className="text-white flex items-center gap-3">
                 <span className="material-symbols-outlined text-white">email</span>
                 godsplancharity255@gmail.com
               </li>
+              </a>
             </ul>
           </div>
         </div>

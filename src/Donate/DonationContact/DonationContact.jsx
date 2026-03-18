@@ -1,15 +1,16 @@
-// components/ContactSection.jsx
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => {
   const handleContactLeader = () => {
-    // Handle contact leader action
+    
     console.log('Contact leader clicked');
   };
 
   const handleEmailSupport = () => {
-    // Handle email support action
-    window.location.href = 'mailto:godsplancharity@gmail.com';
+    
+    window.location.href = 'mailto:godsplancharity255@gmail.com';
   };
 
   return (
@@ -19,7 +20,7 @@ const ContactSection = () => {
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* Contact Leader Card */}
+        <Link to="/support">
         <div
           onClick={handleContactLeader}
           className="flex items-center gap-4 bg-blue-200 rounded-xl p-4 hover:bg-blue-400 transition-all cursor-pointer group"
@@ -39,8 +40,9 @@ const ContactSection = () => {
             <span className="material-symbols-outlined">call</span>
           </div>
         </div>
+        </Link>
 
-        {/* Support Email Card */}
+        
         <div
           onClick={handleEmailSupport}
           className="flex items-center gap-4 bg-blue-200 rounded-xl p-4 hover:bg-blue-400 transition-all cursor-pointer group"

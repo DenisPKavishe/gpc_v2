@@ -150,7 +150,7 @@ const RegistrationForm = () => {
           <div>
             <p className="text-sm font-semibold text-emerald-800">Registration Confirmed!</p>
             <p className="text-xs text-emerald-600 mt-0.5">
-              An SMS confirmation will be sent to <strong>{formData.phone}</strong>.
+                You will receive more information through <strong>{formData.phone}</strong>, Thank You.
             </p>
           </div>
         </div>
